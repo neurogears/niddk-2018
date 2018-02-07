@@ -31,13 +31,13 @@ This training course will introduce you to the basic concepts of the [Bonsai](ht
             <td>Morning</td>
             <td style="color:cornflowerblue" align="center">Introduction to Bonsai</td>
             <td style="color:darkgoldenrod" align="center">Acquisition and Tracking</td>
-            <td style="color:darkgoldenrod" align="center">Closed-Loop and Synching</td>
+            <td style="color:darkgoldenrod" align="center">Closed-loop and Operant Behavior</td>
             <td style="color:darkgoldenrod" align="center">Final Projects</td>
         </tr>
         <tr>
             <td>Afternoon</td>
             <td style="color:chocolate" align="center">Acquisition and Tracking</td>
-            <td style="color:chocolate" align="center">Closed-Loop and Synching</td>
+            <td style="color:chocolate" align="center">Closed-loop and Operant Behavior</td>
             <td style="color:cornflowerblue" align="center">Advanced Concepts</td>
             <td style="color:chocolate" align="center">Final Projects</td>
         </tr>
