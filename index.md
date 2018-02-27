@@ -32,41 +32,13 @@ This training course will introduce you to the basic concepts of the [Bonsai](ht
             <td style="color:cornflowerblue" align="center"></td>
             <td style="color:darkgoldenrod" align="center">Acquisition and Tracking</td>
             <td style="color:darkgoldenrod" align="center">Closed-loop and Operant Behavior</td>
-            <td style="color:cornflowerblue" align="center">Rapid-prototyping with Bonsai</td>
+            <td style="color:cornflowerblue" align="center">Final Projects</td>
         </tr>
         <tr>
             <td>Afternoon</td>
             <td style="color:chocolate" align="center">Introduction to Bonsai</td>
             <td style="color:chocolate" align="center">Advanced Concepts</td>
-            <td style="color:cornflowerblue" align="center">Final Projects</td>
-            <td style="color:cornflowerblue" align="center"></td>
-        </tr>
-    </tbody>
-</table>
-
-<table class="markdown-body">
-    <thead>
-        <tr>
-            <th></th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Morning</td>
-            <td style="color:cornflowerblue" align="center"></td>
-            <td style="color:chocolate" align="center">Advanced Concepts</td>
-            <td style="color:darkgoldenrod" align="center">Closed-loop and Operant Behavior</td>
             <td style="color:cornflowerblue" align="center">Rapid-prototyping with Bonsai</td>
-        </tr>
-        <tr>
-            <td>Afternoon</td>
-            <td style="color:chocolate" align="center">Introduction to Bonsai</td>
-            <td style="color:darkgoldenrod" align="center">Acquisition and Tracking</td>
-            <td style="color:cornflowerblue" align="center">Final Projects</td>
             <td style="color:cornflowerblue" align="center"></td>
         </tr>
     </tbody>
