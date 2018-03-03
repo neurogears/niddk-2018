@@ -9,7 +9,7 @@ This training course will introduce you to the basic concepts of the [Bonsai](ht
 
 * How to use Bonsai to create data acquisition and processing pipelines
 * How to create your own closed-loop behaviour systems
-* Different approaches to achieve precise synchronization of independent data streams
+* How to specify a simple operant behavior task using states and events
 * What is a Bonsai workflow and what it represents
 * What is a marble diagram and how to read it
 * What is an observable sequence
