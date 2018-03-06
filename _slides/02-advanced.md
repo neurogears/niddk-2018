@@ -16,6 +16,24 @@ permalink: /slides/advanced/
 
 ---
 
+###### Merge
+
+![Merge](../../assets/images/merge.svg)
+
+---
+
+###### Amb
+
+![Amb](../../assets/images/amb.svg)
+
+---
+
+###### Concat
+
+![Concat](../../assets/images/concat.svg)
+
+---
+
 ### Higher-Order Operators
 
 ![Concatenate video files using first order operators](../../assets/images/concatfile-firstorder.svg)
@@ -37,30 +55,6 @@ permalink: /slides/advanced/
 ###### Concat
 
 ![Combine all sequences of frames into a single sequence](../../assets/images/concatfile-combine.svg)
-
----
-
-###### Buffer
-
-![Buffer](../../assets/images/buffer.svg)
-
----
-
-###### TriggeredBuffer
-
-![TriggeredBuffer](../../assets/images/triggeredbuffer.svg)
-
----
-
-###### Window
-
-![Window](../../assets/images/window.svg)
-
----
-
-###### TriggeredWindow
-
-![TriggeredWindow](../../assets/images/triggeredwindow.svg)
 
 ---
 
@@ -142,6 +136,30 @@ permalink: /slides/advanced/
 
 <!-- .element: data-transition="none default" -->
 ![SelectMany](../../assets/images/selectmany-events-out.svg)
+
+---
+
+###### Buffer
+
+![Buffer](../../assets/images/buffer.svg)
+
+---
+
+###### TriggeredBuffer
+
+![TriggeredBuffer](../../assets/images/triggeredbuffer.svg)
+
+---
+
+###### Window
+
+![Window](../../assets/images/window.svg)
+
+---
+
+###### TriggeredWindow
+
+![TriggeredWindow](../../assets/images/triggeredwindow.svg)
 
 ---
 
