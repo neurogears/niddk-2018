@@ -1,10 +1,10 @@
 ---
 layout: worksheet
-title: State Machine
-permalink: /worksheets/state-machine/
+title: State Machines
+permalink: /worksheets/state-machines/
 ---
 
-When designing operant behaviour assays in systems neuroscience, it is useful to describe the task as a sequence of states that the system goes through (e.g. stimulus on, stimulus off, reward, inter-trial interval, etc). Progression through these states is driven by events, which can be either internal or external to the system (e.g. button press, timeout, stimulus offset, movement onset). It is common to describe the interplay between states and events in the form of a state-machine diagram, or graph, where nodes are states, and arrows are events.
+When designing operant behaviour assays in systems neuroscience, it is useful to describe the task as a sequence of states that the system goes through (e.g. stimulus on, stimulus off, reward, inter-trial interval, etc). Progression through these states is driven by events, which can be either internal or external to the system (e.g. button press, timeout, stimulus offset, movement onset). It is common to describe the interplay between states and events in the form of a finite-state machine diagram, or graph, where nodes are states, and arrows are events.
 
 For example, a simple reaction time task where the subject needs to press a button as fast as possible following a stimulus is described in the following diagram:
 
@@ -24,7 +24,7 @@ In this worksheet, we will be using an Arduino or a camera as an interface to de
 
 ### **Exercise 2:** Inter-trial interval and stimulus presentation
 
-Translating a state-machine diagram into a Bonsai workflow begins by identifying the initial state of the task (i.e. the beginning of each trial). It is often convenient to consider the inter-trial interval period as the initial state, followed by stimulus presentation.
+Translating a state machine diagram into a Bonsai workflow begins by identifying the initial state of the task (i.e. the beginning of each trial). It is often convenient to consider the inter-trial interval period as the initial state, followed by stimulus presentation.
 
 * Insert a `Timer` source and set its `DueTime` property to be about 3 seconds.
 * Insert a `Sink` operator and set its `Name` property to `StimulusOn`.
@@ -36,7 +36,7 @@ The `Sink` operator allows you to specify arbitrary processing side-effects with
 * Insert a `DigitalOutput` sink and connect it to Arduino pin 13.
 * Run the workflow a couple of times and verify that the sequence of events is progressing correctly.
 
-**Note:** Opening a new connection to the Arduino can take several seconds due to the way the Firmata protocol is implemented. This may introduce a slight delay in starting the task. This delay is only present at the start of the workflow and will not affect the behavior of the state-machine.
+**Note:** Opening a new connection to the Arduino can take several seconds due to the way the Firmata protocol is implemented. This may introduce a slight delay in starting the task. This delay is only present at the start of the workflow and will not affect the behavior of the state machine.
 {: .notice--info}
 
 * In the main top-level workflow, insert a `Delay` operator and set its `DueTime` property to a couple of seconds.
